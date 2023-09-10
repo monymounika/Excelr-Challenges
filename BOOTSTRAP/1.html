@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Cards</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <style>
+        @media (max-width: 991px) { /* Tablet and Mobile */
+          #card-row {
+            display: flex;
+            flex-wrap: wrap;
+          }
+          .col-md-4 {
+            flex-basis: 50%;
+            max-width: 50%;
+          }
+        }
+      
+        @media (max-width: 767px) { /* Mobile */
+          .col-md-4 {
+            flex-basis: 100%;
+            max-width: 100%;
+          }
+        }
+      </style>
+      
+</head>
+<body>
+
+<div class="container">
+  <div class="row" id="card-row">
+    <div class="col-md-4">
+      <div class="card">
+        <img src="java.png" class="card-img-top" alt="Image 1">
+        <div class="card-body">
+          <h5 class="card-title">Java Full Stack</h5>
+          <p class="card-text">Description for Java</p>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="Angular.png" class="card-img-top" alt="Image 2">
+        <div class="card-body">
+          <h5 class="card-title">Angular</h5>
+          <p class="card-text">Description for Angular</p>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <img src="spring.png" class="card-img-top" alt="Image 3">
+        <div class="card-body">
+          <h5 class="card-title">Spring Boo</h5>
+          <p class="card-text">Description for Spring Boot</p>
+          <a href="#" class="btn btn-primary">Enroll Now</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+        <div class="card">
+          <img src="javascript.png" class="card-img-top" alt="Image 4">
+          <div class="card-body">
+            <h5 class="card-title">Java Script</h5>
+            <p class="card-text">Description for Java Script</p>
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="sql.png" class="card-img-top" alt="Image 5">
+          <div class="card-body">
+            <h5 class="card-title">SQL</h5>
+            <p class="card-text">Description for SQL</p>
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="bootstrap.jpg" class="card-img-top" alt="Image 6">
+          <div class="card-body">
+            <h5 class="card-title">Bootstrap</h5>
+            <p class="card-text">Description for Bootstrap</p>
+            <a href="#" class="btn btn-primary">Enroll Now</a>
+          </div>
+        </div>
+      </div>
+    
+  </div>
+</div>
+
+
+</body>
+</html>
